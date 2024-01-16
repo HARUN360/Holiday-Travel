@@ -423,7 +423,7 @@ nav {
   font-family: Mulish;
   font-size: 2.4em;
   font-weight: 800;
-  padding-left: 50px;
+  padding: 10px 0px 10px 50px;
 
 }
 
@@ -434,16 +434,16 @@ nav {
   font-size: 1.5em;
   font-weight: 400;
   line-height: 26px;
-  /* 162.5% */
   margin: 0px 48px;
   padding-bottom: 22px;
+  padding-top: 10px;
 }
 
 .form-news input {
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   display: block;
-  padding: 14px 60px;
+  padding: 14px 125px;
   margin: 6px 26px;
   text-align: center;
   cursor: pointer;
@@ -453,7 +453,7 @@ nav {
 }
 
 button.Subscribe {
-  padding: 14px 135px;
+  padding: 14px 200px;
   margin: 6px 26px;
   border: none;
   outline: none;
