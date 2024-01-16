@@ -4,8 +4,7 @@
 
     nav,
     .nav-con,
-    .popular-containar,
-    .newslatter-main {
+    .popular-containar{
         flex-direction: column;
     }
 
@@ -101,14 +100,19 @@
 
     /* news section */
 
-    /* .newslatter-main{
-    flex-direction: column;
-  } */
+    .newslatter-main{
+    flex-direction: column-reverse;
+     }
     .news-img,
     .newscont {
         width: 100%;
     }
-
+    .form-news input {
+        padding: 15px 65px;
+    }
+    button.Subscribe{
+        padding: 15px 140px;
+    }
 
     /* footer section */
     .footer-description {
