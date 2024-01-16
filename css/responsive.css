@@ -108,15 +108,7 @@
     .ne-img,.news-con{
         width: 100%;
     }
-    /* news section */
 
-    .newslatter-main{
-    flex-direction: column-reverse;
-     }
-    .news-img,
-    .newscont {
-        width: 100%;
-    }
     .form-news input {
         padding: 15px 65px;
     }
