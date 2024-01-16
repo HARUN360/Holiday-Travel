@@ -472,3 +472,61 @@ button.Subscribe {
   width: 100%;
 }
 /* newslatter part end */
+/* footer part start */
+footer {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.foote-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.foote-title p {
+  color: var(--Dark-01, #131318);
+  font-family: Mulish;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.footer-travel {
+  color: #FF5400;
+}
+
+.footer-description {
+  color: #5A5A5D;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px 371px;
+  padding-bottom: 20px;
+}
+
+.sosial-icon i {
+  font-size: 50px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.horaizontal {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.footer last {
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 20px 0px;
+
+}
+
+/* footer part end */

@@ -1,8 +1,7 @@
-
 /* just for  small device */
 
 @media screen and (max-width:600px) {
-   
+
     nav,
     .nav-con,
     .popular-containar,
@@ -40,8 +39,8 @@
         width: 80%;
     }
 
-    
-    
+
+
     /* popular part here */
 
     .popular-containar {
@@ -83,27 +82,42 @@
     .why-choss-content {
         width: 80%;
         text-align: center;
-     
+
     }
-    .perfect-section{
+
+    .perfect-section {
         margin: 50px;
     }
-    .perfect-containar{
+
+    .perfect-containar {
         flex-direction: column;
-       
+
     }
-    .perfect-containar > div{
+
+    .perfect-containar>div {
         width: 100%;
-    
+
     }
+
     /* news section */
-    
-  /* .newslatter-main{
+
+    /* .newslatter-main{
     flex-direction: column;
   } */
-  .news-img,.newscont {
-    width: 100%;
-  } 
+    .news-img,
+    .newscont {
+        width: 100%;
+    }
+
+
+    /* footer section */
+    .footer-description {
+        margin: 0 auto;
+    }
+
+    .sosial-icon i {
+        padding: 20px 5px;
+    }
 
 
 }
