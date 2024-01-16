@@ -2,10 +2,11 @@
 /* just for  small device */
 
 @media screen and (max-width:600px) {
-
+   
     nav,
     .nav-con,
-    .popular-containar {
+    .popular-containar,
+    .newslatter-main {
         flex-direction: column;
     }
 
@@ -95,5 +96,14 @@
         width: 100%;
     
     }
+    /* news section */
+    
+  /* .newslatter-main{
+    flex-direction: column;
+  } */
+  .news-img,.newscont {
+    width: 100%;
+  } 
+
 
 }
