@@ -510,10 +510,13 @@ footer {
 }
 
 .foote-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.foote-title img{
+    width: 120px;
 }
 
 .foote-title p {
@@ -539,9 +542,13 @@ footer {
 }
 
 .sosial-icon i {
-  font-size: 50px;
-  padding: 20px;
-  cursor: pointer;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sosial-icon i:hover{
+    color:#FF5400 ;
 }
 
 .horaizontal {
