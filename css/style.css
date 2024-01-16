@@ -467,9 +467,28 @@ button.Subscribe {
 }
 .news-img{
   width: 50%;
+  position: relative;
 }
 .news-img img{
   width: 100%;
+}
+.percentence{
+  width: 241px;
+  height: 90px;
+  border-radius: 16px;
+  background: #FF5400;
+  text-align: center;
+  color: white;
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: 68px;
+  right: 3px;
+}
+.percentence p{
+  font-size: 1.2em;
+}
+.percentence h3{
+  font-size: 2em;
 }
 /* newslatter part end */
 /* footer part start */
