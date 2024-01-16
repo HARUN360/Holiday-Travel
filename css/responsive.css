@@ -1,0 +1,99 @@
+
+/* just for  small device */
+
+@media screen and (max-width:600px) {
+
+    nav,
+    .nav-con,
+    .popular-containar {
+        flex-direction: column;
+    }
+
+
+    .nav-con li {
+        margin-top: 10px;
+    }
+
+    .form {
+        display: block;
+        padding: 10px;
+        height: 230px;
+
+
+    }
+
+    .banner {
+        height: 560px;
+        width: 90%;
+        object-fit: cover;
+        padding: 20px;
+        margin: 0 auto;
+
+
+    }
+
+    .form button,
+    .form input,
+    .form select {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    
+    
+    /* popular part here */
+
+    .popular-containar {
+        margin: 50px;
+    }
+
+    .popular-containar>div {
+        width: 100%;
+    }
+
+    .image-containar img {
+        height: 300px;
+    }
+
+    .image-containar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+
+    }
+
+    .choss-content {
+        width: 100%;
+
+    }
+
+    .choos-containar {
+        margin: 50px;
+    }
+
+    .common-grid-img {
+
+        position: relative;
+        bottom: 170px;
+
+    }
+
+    .why-choss-content {
+        width: 80%;
+        text-align: center;
+     
+    }
+    .perfect-section{
+        margin: 50px;
+    }
+    .perfect-containar{
+        flex-direction: column;
+       
+    }
+    .perfect-containar > div{
+        width: 100%;
+    
+    }
+
+}
