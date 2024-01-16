@@ -554,15 +554,15 @@ footer {
 .horaizontal {
   width: 60%;
   margin: 0 auto;
-
+  
 }
 
-.footer last {
+.footer-last {
   color: #131318;
   font-family: Inter;
   font-size: 16px;
   font-weight: 300;
-  padding: 20px 0px;
+  padding-top: 20px;
 
 }
 
