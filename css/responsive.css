@@ -101,6 +101,13 @@
     .extraimg{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* news try */
+    .news{
+        flex-direction: column-reverse;
+    }
+    .ne-img,.news-con{
+        width: 100%;
+    }
     /* news section */
 
     .newslatter-main{
