@@ -83,7 +83,24 @@
         text-align: center;
 
     }
+    /* deals part start */
 
+    .deals-img{
+        height: 100%;
+    }
+    .deals-box, .deals-box2{
+        padding-left: 5px;
+        margin: 100px 25px 25px 25px;
+    }
+    .deals-box p,  .deals-box h2, .deals-box p i, .deals-box p .price-des{
+        margin: 0;
+        padding: 0;
+    }
+    .deals-box2 p,  .deals-box2 h2, .deals-box2 p i, .deals-box2 p .price-des{
+        margin: 0;
+        padding: 0;
+    }
+    /* prefect start */
     .perfect-section {
         margin: 50px;
     }
@@ -212,7 +229,24 @@
     .choss-box{
         width: 300px;
     }
-
+     /* deals part start */
+     .deals-img{
+        height: 100%;
+    }
+    .deals-box{
+        margin: 42px 108px 29px 393px;
+    }
+    .deals-box2{
+        margin: 42px  393px 29px 108px;
+    }
+    .deals-box p, .deals-box h2, .deals-box p i, .deals-box p .price-des{
+        margin: 0;
+        padding: 0;
+    }
+    .deals-box2 p, .deals-box2 h2, .deals-box2 p i, .deals-box2 p .price-des{
+        margin: 0;
+        padding: 0;
+    }
     /* perfect section */
     .perfect-section {
         width: 90%;

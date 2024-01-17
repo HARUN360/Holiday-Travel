@@ -360,6 +360,65 @@ nav {
 } 
 /* why choss related part end */
 
+/* deals part star*/
+.reword-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+
+
+.deals-img{
+    background-image: url(../Images/Group\ 39.png);
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.deals-box{
+    background-color: #ffffffd9;
+    text-align: start;
+    margin: 0px 60px 0px 453px;
+    padding: 65px 29px 13px 20px;
+    border-radius: 10px;
+}
+.deals-box p {
+    display: inline-block;
+    padding: 10px 0px;
+}
+.deals-box2 {
+    background-color: #ffffffd9;
+    text-align: start;
+    margin: 0px 500px 0px 50px;
+    padding: 65px 29px 13px 20px;
+    border-radius: 10px;
+}
+.deals-icoon{
+    display: inline;
+}
+.deals2-box p {
+    display: inline-block;
+    padding: 10px 0px;
+}
+.deals-sosial i{
+    color: #FF5400;
+}
+.price-des{
+    margin-right: 100px;
+}
+.price{
+    color: red; 
+     font-size: 1.5em; 
+     display: block;
+}
+/* deals part end*/
+
+
+
+
 /* perfect related part start */
 .perfect-section{
     
