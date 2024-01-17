@@ -399,7 +399,7 @@ nav {
 /* extra setion */
 .extraimg{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 2fr);
     gap: 10px;
 }
 .extraimg img:hover{
@@ -407,6 +407,8 @@ nav {
 }
 .extraimg img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* try next */
 .news{
@@ -443,26 +445,37 @@ nav {
 .news-con{
     border: 2px solid red;
     width: 38%;
+    box-sizing: border-box;
 }
 .news-con h3{
-    padding:15px 10px;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 .news-con p{
-    font-size: 1.5em;
-    margin-left:  13px;
+    font-size: 1.4em;
+    margin-left: 28px;
+    margin-right: 17px;
+}
+.horaizontal-1{
+    width: 90%;
+    margin: auto;
 }
 .input-try{
-    padding: 19px 68px;
+    padding: 19px 50px;
     display: block;
     margin: 8px;
     font-size: 22px;
     font-weight: 700;
     outline: none;
     cursor: pointer;
+    margin-left: 18px;
+    border: 0;
+    background-color: #F3F3F3;
+    border-radius: 5px;
 }
 .sub-btn {
-    padding: 20px 139px;
-    margin-left: 10px;
+    padding: 20px 125px;
+    margin-left: 20px;
     font-size: 1.5em;
     font-weight: 700;
     background-color: #FF5400;
@@ -471,6 +484,12 @@ nav {
     cursor: pointer;
     border: none;
     outline: none;
+    transition: 0.3s;
+}
+.sub-btn:hover{
+    background-color: transparent;
+    color: #131318;
+    border: 1px solid red;
 }
 /* try par end */
 

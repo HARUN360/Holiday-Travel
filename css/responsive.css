@@ -4,31 +4,31 @@
 
     nav,
     .nav-con,
-    .popular-containar{
+    .popular-containar {
         flex-direction: column;
     }
 
+    .nav-con {
+        padding-bottom: 15px;
+    }
 
     .nav-con li {
         margin-top: 10px;
+    }
+
+    /* banner section start */
+    .banner {
+        height: 600px;
+        width: 90%;
+        object-fit: cover;
+        padding: 20px;
+        margin: 0 auto;
     }
 
     .form {
         display: block;
         padding: 10px;
         height: 230px;
-
-
-    }
-
-    .banner {
-        height: 560px;
-        width: 90%;
-        object-fit: cover;
-        padding: 20px;
-        margin: 0 auto;
-
-
     }
 
     .form button,
@@ -97,22 +97,27 @@
         width: 100%;
 
     }
+
     /* exra */
-    .extraimg{
+    .extraimg {
         grid-template-columns: repeat(1, 1fr);
     }
+
     /* news try */
-    .news{
+    .news {
         flex-direction: column-reverse;
     }
-    .ne-img,.news-con{
-        width: 100%;
-    }
 
+    .ne-img,
+    .news-con {
+        width: 100%;
+        border: none;
+    } 
     .form-news input {
         padding: 15px 65px;
     }
-    button.Subscribe{
+
+    button.Subscribe {
         padding: 15px 140px;
     }
 
@@ -126,4 +131,131 @@
     }
 
 
+}
+
+/* midle divice jonno */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-con {
+        padding-top: 20px;
+    }
+
+    .form {
+        display: block;
+        padding: 10px;
+        height: 230px;
+    }
+
+    .banner {
+        height: 620px;
+        width: 90%;
+        object-fit: cover;
+        padding: 26px;
+        margin: 30px auto;
+    }
+
+    .form button,
+    .form input,
+    .form select {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    /* popular secrion here */
+    .popular-main {
+        width: 90%;
+        max-width: 992px;
+        margin: 10px auto;
+    }
+
+    .popular-content,
+    .popular-content h2,
+    .popular-content p {
+        margin: 0px;
+        line-height: normal;
+    }
+
+    .popular-list {
+        line-height: normal;
+    }
+
+    .popular-content .primary-btn {
+        margin: 10px 0px 0px 80px;
+    }
+
+    .popular-image img {
+        height: 420px;
+        object-fit: cover;
+    }
+
+    /* choise section */
+    .choss-image {
+        width: 90%;
+        max-width: 991px;
+        margin: 0px auto;
+    }
+    /* why choise part  */
+    .why-choos-main {
+        width: 90%;
+        max-width: 991px;
+        margin: 0px auto;
+    }
+    .chosss-box-containar {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+        place-items: center;
+    }
+    .choss-box{
+        width: 300px;
+    }
+
+    /* perfect section */
+    .perfect-section {
+        width: 90%;
+        max-width: 991px;
+        margin: 0px auto;
+        padding: 70px 0px;
+    }
+    .perfect-containar h2, .perfect-containar p, .perfect-containar ul {margin: 0; padding: 0; line-height: normal;}
+    .perfect-containar .primary-btn{ margin: 10px 0px 0px 140px;}
+    /* extra  part*/
+    .extraimg {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    /* news part */
+    .news {
+        flex-direction: column-reverse;
+    }
+
+    .ne-img,
+    .news-con {
+        width: 100%;
+        border: none;
+    }
+
+    .form-news input {
+        padding: 15px 65px;
+    }
+
+    button.Subscribe {
+        padding: 15px 140px;
+    }
+    form {
+        width: 90%;
+        max-width: 991px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+    }
+    .news-con{
+        border: 1px solid red;
+    }
+    /* footer */
+    .footer-description {
+        padding: 0;
+        margin: 0px 10px;
+    }
 }
